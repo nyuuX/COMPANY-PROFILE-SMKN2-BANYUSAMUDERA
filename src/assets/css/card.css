@@ -1,0 +1,50 @@
+.card-container {
+    padding: 50px 100px;
+    width: 100%;
+    height: 70vh;
+}
+
+.card-wrapper {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin-bottom: 40px;
+}
+
+.konten-card {
+    width: 600px;
+}
+
+.konten-card img {
+    width: 600px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.konten-card p {
+    text-align: justify;
+}
+
+.konten-card a {
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    padding: 5px 50px;
+    transition: 0.3s;
+}
+
+.konten-card a:hover {
+    color: white;
+    background-color: black;
+}
+
+#arrow-down {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+#arrow-down span {
+    font-size: 40px;
+}

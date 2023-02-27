@@ -1,0 +1,67 @@
+.logo-wrapper {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+
+.login-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 340px;
+    margin-bottom: 150px;
+}
+
+.login-box h1 {
+    font-size: 20px;
+    text-align: center;
+}
+
+
+.login-box img {
+    width: 200px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#logo {
+    display: flex;
+    justify-content: center;
+}
+
+.input-area {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    gap: 25px;
+}
+
+.input-area span {
+    font-size: 14px;
+}
+
+.input-area input {
+    height: 40px;
+    border: none;
+    background-color: gainsboro;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+#submit-btn  {
+    background-color: rgb(7, 7, 7);
+    color: white;
+    height: 40px;
+    width: 100%;
+    border-radius: 8px;
+}
+
+.sign-up {
+    width: 100%;
+}
+
+.sign-up a {
+    text-decoration: none;
+    color: rgb(99, 95, 95);
+}
